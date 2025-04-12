@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CameraJoshua : MonoBehaviour
 {
-    public gameObject target;
+    public GameObject target;
 
-    [serializeField] private Vector3 posOffset;
+    [SerializeField] private Vector3 posOffset;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class CameraJoshua : MonoBehaviour
     {
     if (target != null)
     {
-        vector3 newPos = target.transform.position + posOffset;
+        Vector3 newPos = target.transform.position + posOffset;
         transform.position = newPos;
     }
 
