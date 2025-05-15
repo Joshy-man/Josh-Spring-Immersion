@@ -1,0 +1,45 @@
+
+.container.px-4.text-center
+{
+    grid-columns:      12;
+    grid-gutter-width: 1.5rem;
+    grid-row-columns:  6;
+    color: rgb(20, 20, 144);
+}
+.container.text-center
+{
+    color: rgb(20, 20, 144);
+}
+.row.g-0.text-center
+{
+    color: rgb(20, 20, 144);
+}
+.container-sm
+{
+    color: rgb(20, 20, 144);
+}
+.container-md{
+    color: rgb(20, 20, 144);
+}
+.container-lg
+{
+    color: rgb(20, 20, 144);
+}
+.container-xl
+{
+   color: rgb(20, 20, 144);
+}
+.container-xxl
+{
+    color: rgb(20, 20, 144);
+}
+.col-md-4
+{
+    color: rgb(20, 20, 144);
+}
+
+
+
+
+
+
